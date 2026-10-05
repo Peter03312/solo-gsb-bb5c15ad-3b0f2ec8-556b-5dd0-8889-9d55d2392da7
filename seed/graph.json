@@ -1,0 +1,11 @@
+{
+  "nodes": ["GATE", "PLAZA", "LAKE", "PAVILION", "EXIT"],
+  "edges": [
+    {"id": "E1", "source": "GATE",     "target": "PLAZA",    "seconds": 300, "stairs": false},
+    {"id": "E2", "source": "PLAZA",    "target": "LAKE",     "seconds": 420, "stairs": false},
+    {"id": "E3", "source": "PLAZA",    "target": "PAVILION", "seconds": 240, "stairs": true},
+    {"id": "E4", "source": "LAKE",     "target": "PAVILION", "seconds": 300, "stairs": false},
+    {"id": "E5", "source": "PAVILION", "target": "EXIT",     "seconds": 180, "stairs": false},
+    {"id": "E6", "source": "LAKE",     "target": "EXIT",     "seconds": 1200, "stairs": false}
+  ]
+}
